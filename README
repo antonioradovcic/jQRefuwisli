@@ -1,0 +1,38 @@
+jQuery Responsive Full Width Slider
+-----------------------------------
+
+What it is supposed to do, when it's done:
+
+Slide through multiple DIVs. The triggers for the slides are part of the slides itself.
+
+
+The HTML looks like:
+
+<div class="slideContainer">
+
+  <div class="slide" name="0">
+    CONTENT
+    <a name="1" class="slideMover"> Go to Slide 1 </a>
+    <a name="2" class="slideMover"> Go to Slide 2 </a>
+  </div>
+
+  <div class="slide" name="1">
+    CONTENT
+    <a name="0" class="slideMover"> Go to Slide 0 </a>
+    <a name="2" class="slideMover"> Go to Slide 2 </a>
+  </div>
+
+  <div class="slide" name="2">
+    CONTENT
+    <a name="0" class="slideMover"> Go to Slide 0 </a>
+    <a name="1" class="slideMover"> Go to Slide 1 </a>
+  </div>
+
+</div>
+
+
+The slides automatically scale with the browser-width.
+
+
+
+
